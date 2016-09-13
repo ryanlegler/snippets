@@ -20,7 +20,7 @@ fruits.push("Orange"); // adds and returns item to the end of the array
 ```
 fruits.unshift("Strawberry") // adds and returns item to the beginning of the array
 ```
-## Remove from the end of an Array
+### Remove from the end of an Array
 ```
 fruits.pop(); // removes and returns last item in the array
 ```
@@ -137,7 +137,7 @@ var find = 'apple';
 var result = arr.find(fruit => fruit.type === find)
 console.log("arr",result)
 ```
-## concat
+### concat
 ```
 var arr1 = ["1","2"];
 var arr2 = ["3","4"];
@@ -183,7 +183,7 @@ console.log("objectContents",objectContents)
 
 # Object
 
-## for in
+### for in - iterate over an object by key/property
 ```
 var obj = {a:1, b:2, c:3};
 
@@ -191,7 +191,7 @@ for (var prop in obj) {
   console.log("obj." + prop + " = " + obj[prop]);
 }
 ```
-## get length of object
+### get length of object
 ```
 var obj = {
     "apple": {
