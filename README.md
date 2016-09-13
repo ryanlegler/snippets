@@ -136,13 +136,14 @@ var arr = [
 var find = 'apple';
 var result = arr.find(fruit => fruit.type === find)
 console.log("arr",result)
-
 ```
 ## concat
+```
 var arr1 = ["1","2"];
 var arr2 = ["3","4"];
 var arr3 = arr1.concat(arr2);
 console.log("arr3",arr3)
+```
 ### ES6 spread operator
 ```
 var arr = ["apple","orange","apple","orange","pear","orange"];
