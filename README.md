@@ -4,15 +4,15 @@
 ```
 var fruits = ["Apple", "Banana"];
 ```
-### Get Length of the array
+### Get the length
 ```
 console.log(fruits.length);
 ```
-### Get last element in an array
+### Get last element
 ```
 var last = fruits[fruits.length - 1];
 ```
-### Add to the end of an Array
+### Add to the end
 ```
 fruits.push("Orange"); // adds and returns item to the end of the array
 ```
@@ -20,15 +20,15 @@ fruits.push("Orange"); // adds and returns item to the end of the array
 ```
 fruits.unshift("Strawberry") // adds and returns item to the beginning of the array
 ```
-### Remove from the end of an Array
+### Remove from the end
 ```
 fruits.pop(); // removes and returns last item in the array
 ```
-### Remove from the front of an Array
+### Remove from the fron
 ```
 fruits.shift(); // removes and returns first item in the array
 ```
-### Remove an item by Index Position
+### Remove an item by index position
 ```
 fruits.splice(pos, 1);
 ```
@@ -36,7 +36,7 @@ fruits.splice(pos, 1);
 ```
 var shallowCopy = fruits.slice(); // this is how to make a copy
 ```
-### indexOf
+### indexOf - get the index of an matching array item
 ```
 var arr = ['apple', 'orange', 'pear'];
 console.log("found orange", arr.indexOf("orange") != -1, "at index of ", arr.indexOf("orange"));
