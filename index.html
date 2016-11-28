@@ -117,6 +117,23 @@ var newArr = oldArr.map(function(item, index) {
 console.log("newArr", newArr);
 </code></pre>
 
+<h3>
+<a id="array-to-hashmap" class="anchor" href="#array-to-hashmap" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Array to hashmap</h3>
+
+<pre><code>var arr = [
+    { key: 'foo', val: 'bar' },
+    { key: 'hello', val: 'world' }
+];
+
+var result = arr.reduce(function(map, obj) {
+    map[obj.key] = obj.val;
+    return map;
+}, {});
+
+console.log(result);
+// { foo: 'bar', hello: 'world' }
+</code></pre>
+
 <h2>
 <a id="loops" class="anchor" href="#loops" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>loops</h2>
 
